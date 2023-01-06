@@ -1,6 +1,6 @@
 .addCoffe,
 .addGlass {
-  height: 250px;
+  height: 350px;
   width: 25%;
   border: 2px solid blue;
   float: left;
@@ -32,7 +32,7 @@
 }
 
 .coffeMachine {
-  height: 250px;
+  height: 350px;
   width: 35%;
   border: 2px solid blue;
   float: left;
