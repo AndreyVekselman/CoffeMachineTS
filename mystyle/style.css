@@ -1,0 +1,63 @@
+.addCoffe,
+.addGlass {
+  height: 250px;
+  width: 25%;
+  border: 2px solid blue;
+  float: left;
+  text-align: center;
+  margin: 10px;
+  margin-top: 25px;
+  font-size: 25px;
+  padding-top: 10px;
+}
+.addCoffe select,
+.addGlass select {
+  width: 50%;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+.addCoffe #coffeConfirm,
+.addCoffe #glassConfirm,
+.addGlass #coffeConfirm,
+.addGlass #glassConfirm {
+  margin-top: 30px;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 4px;
+}
+.addCoffe p,
+.addGlass p {
+  font-size: 20px;
+}
+
+.coffeMachine {
+  height: 250px;
+  width: 35%;
+  border: 2px solid blue;
+  float: left;
+  text-align: left;
+  margin: 10px;
+  margin-top: 25px;
+  font-size: 25px;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+.coffeMachine select {
+  float: right;
+  margin-right: 30px;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+.coffeMachine #coffePrepare {
+  margin-top: 30px;
+  width: 50%;
+  font-size: 20px;
+  border-radius: 4px;
+  margin-left: 120px;
+}
+.coffeMachine p {
+  font-size: 20px;
+}/*# sourceMappingURL=style.css.map */

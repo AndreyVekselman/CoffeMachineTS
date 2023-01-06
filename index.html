@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="./jscode/script.js" defer></script>
+    <link rel="stylesheet" href="./mystyle/style.css" />
+  </head>
+  <body>
+    <div class="main">
+      <div id="addCoffe" class="addCoffe">
+        <div class="addCoffeeForm">
+          <label for="coffeType">choose coffee type to add:</label>
+          <select name="coffeType" id="coffeType">
+            <option value="Ground">Ground</option>
+            <option value="Instant">Instant</option>
+          </select>
+          <br />
+          <label for="coffeOrigin">choose coffee origin to add:</label>
+          <select name="coffeOrigin" id="coffeOrigin">
+            <option value="Brazil">Brazil</option>
+            <option value="Columbia">Columbia</option>
+            <option value="Indonezia">Indonezia</option>
+          </select>
+          <br />
+          <button id="coffeConfirm">Add Coffee Confirm</button>
+          <br />
+          <p id="outCoffeeAdd"></p>
+        </div>
+      </div>
+      <div id="addGlass" class="addGlass">
+        <div class="addGlassForm">
+          <label for="glassType">choose type of glass:</label>
+          <select name="glassType" id="glassType">
+            <option value="Plastic">Plastic</option>
+            <option value="Cardboard">Cardboard</option>
+          </select>
+          <br />
+          <label for="glassSize">choose size of Glass:</label>
+          <select name="glassSize" id="glassSize">
+            <option value="Big">Big</option>
+            <option value="Small">Small</option>
+            <option value="Medium">Medium</option>
+          </select>
+          <br />
+          <button id="glassConfirm">Add Glass Confirm</button>
+          <br />
+          <p id="outGlassAdd"></p>
+        </div>
+      </div>
+      <div id="coffeeMachine" class="coffeMachine">
+        <div id="addCoffeInMachine" class="addCoffeInMachine">
+          <div class="addCoffeeForm">
+            <label for="coffeTypeInMachine">Pls. select coffe type:</label>
+            <select name="coffeType" id="coffeTypeInMachine">
+              <option value="Ground">Ground</option>
+              <option value="Instant">Instant</option>
+            </select>
+            <br />
+            <label for="coffeOriginInMachine">Pls. select coffe origin:</label>
+            <select name="coffeOrigin" id="coffeOriginInMachine">
+              <option value="Brazil">Brazil</option>
+              <option value="Columbia">Columbia</option>
+              <option value="Indonezia">Indonezia</option>
+            </select>
+            <br />
+          </div>
+        </div>
+        <div id="addGalssInMachine" class="addGalssInMachine">
+          <div class="addGlassForm">
+            <label for="glassTypeInMachine">Pls.select type of glass:</label>
+            <select name="glassType" id="glassTypeInMachine">
+              <option value="Plastic">Plastic</option>
+              <option value="Cardboard">Cardboard</option>
+            </select>
+            <br />
+            <label for="glassSizeInMachine">Pls. select size of Glass:</label>
+            <select name="glassSize" id="glassSizeInMachine">
+              <option value="Big">Big</option>
+              <option value="Small">Small</option>
+              <option value="Medium">Medium</option>
+            </select>
+            <br />
+            <button id="coffePrepare">Prepare Coffee</button>
+            <br />
+            <p id="outCoffeMachine"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
