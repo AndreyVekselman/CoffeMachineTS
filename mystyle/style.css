@@ -1,6 +1,6 @@
 .addCoffe,
 .addGlass {
-  height: 350px;
+  height: 300px;
   width: 25%;
   border: 2px solid blue;
   float: left;
@@ -32,8 +32,8 @@
 }
 
 .coffeMachine {
-  height: 350px;
-  width: 35%;
+  height: 300px;
+  width: 43%;
   border: 2px solid blue;
   float: left;
   text-align: left;
@@ -45,7 +45,7 @@
 }
 .coffeMachine select {
   float: right;
-  margin-right: 30px;
+  margin-right: 15px;
   width: 50%;
   font-size: 20px;
   border-radius: 4px;
